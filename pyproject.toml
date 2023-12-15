@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "restaurant-menu-match"
+version = "0.1.0"
+description = ""
+authors = ["D'Angello <dangelloa.garcian@uqvirtual.edu.co>"]
+readme = "README.md"
+packages = [{include = "restaurant_menu_match"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
