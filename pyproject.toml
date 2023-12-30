@@ -10,6 +10,8 @@ packages = [{include = "restaurant_menu_match"}]
 python = "^3.11"
 jupyter = "^1.0.0"
 pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
 
 
 [build-system]
